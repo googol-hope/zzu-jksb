@@ -15,11 +15,11 @@ import re
 
 
 def Wechat(title,content):
-    api = "https://sc.ftqq.com/"+os.environ["api"]+".send"
+    api = "https://sc.ftqq.com/SCU119479T3cc3eed2e16cff38a565bf9a3033a0ab5f904d4048e25.send"
     data = {
-    "text" : title,
-    "desp" : content
-    }
+        "text" : title,
+        "desp" : content
+        }
     req = requests.post(api, data = data)
 
 class Log:
