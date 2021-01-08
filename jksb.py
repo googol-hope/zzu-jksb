@@ -125,3 +125,4 @@ class Log:
 if __name__ == "__main__":
     loging  = Log()
     loging.login()
+    Wechat("你好","签到成功")
